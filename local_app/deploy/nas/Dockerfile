@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ca-certificates curl libopus0 libstdc++6 fonts-dejavu-core tzdata \
     && rm -rf /var/lib/apt/lists/* \
     && groupadd -g 10001 note4 && useradd -u 10001 -g 10001 -M note4 \
-    && mkdir /data /opt/note4/fonts && chown note4:note4 /data
+    && mkdir -p /data /opt/note4/fonts && chown note4:note4 /data
 WORKDIR /opt/note4
 COPY local_app/deploy/nas/requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt

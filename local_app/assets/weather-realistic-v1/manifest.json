@@ -1,0 +1,173 @@
+{
+  "version": 5,
+  "style": "original B photorealistic silver-gray weather",
+  "master": "original",
+  "assets": {
+    "original": {
+      "file": "original.png",
+      "sha256": "ceb776aa2b72605d39fad29ca6bff2b43e4b6915c48b759a8cecd513d50175a5"
+    },
+    "partly-cloudy-night": {
+      "file": "partly-cloudy-night.png",
+      "sha256": "c7562d76b64e0b471a5e3e3d92fca45a7ef51d0292ed18c2be4d0e8f59fe2d7f",
+      "hero_box": [
+        26,
+        29,
+        368,
+        209
+      ]
+    },
+    "clear-day": {
+      "file": "clear-day-fine-fringe-v5.png",
+      "sha256": "f616336c2faf6a6fa4e6702e78a5e648de9ccc665e5105b2b800d4d21c732b83",
+      "hero_box": [
+        26,
+        57,
+        368,
+        135
+      ]
+    },
+    "clear-night": {
+      "file": "clear-night.png",
+      "sha256": "993bf0c66d43a1307c37293d65893c47bffd1b06d3562aafd1de8d797124e91f"
+    },
+    "overcast": {
+      "file": "overcast.png",
+      "sha256": "e7e1dfb8028e0ae25b56a923ad7da5197fbec345444c28b33d31b0356b03e3e7"
+    },
+    "rain": {
+      "file": "rain.png",
+      "sha256": "b1a1f7b2b387f3bfbe301338b3c2efaad631bb383e339e7d534b6f931579b2b6"
+    },
+    "snow": {
+      "file": "snow.png",
+      "sha256": "6cd3b3afcec6e39ba4cd41e71924c68a81a7508e6f6cc374f67d3e6e7b71a031"
+    },
+    "fog": {
+      "file": "fog.png",
+      "sha256": "af842d758056bf6fd7fef233618acf3d8593968411d303fbcb4d2252e0f9f181"
+    },
+    "sleet": {
+      "file": "sleet.png",
+      "sha256": "cef613b7cb52f2db4b299927f4e63b85aaaa914bab08bafb07738589c54fa2fd"
+    },
+    "thunderstorms-rain": {
+      "file": "thunderstorms-rain.png",
+      "sha256": "fda3348d7d9ecc309e3cbe6e20c478740e18cd1008e1793e5680dfbe4495c4e8"
+    }
+  },
+  "conditions": {
+    "0": {
+      "day": "clear-day",
+      "night": "clear-night"
+    },
+    "1": {
+      "day": "original",
+      "night": "partly-cloudy-night"
+    },
+    "2": {
+      "day": "original",
+      "night": "partly-cloudy-night"
+    },
+    "3": {
+      "day": "overcast",
+      "night": "overcast"
+    },
+    "45": {
+      "day": "fog",
+      "night": "fog"
+    },
+    "48": {
+      "day": "fog",
+      "night": "fog"
+    },
+    "56": {
+      "day": "sleet",
+      "night": "sleet"
+    },
+    "57": {
+      "day": "sleet",
+      "night": "sleet"
+    },
+    "66": {
+      "day": "sleet",
+      "night": "sleet"
+    },
+    "67": {
+      "day": "sleet",
+      "night": "sleet"
+    },
+    "71": {
+      "day": "snow",
+      "night": "snow"
+    },
+    "73": {
+      "day": "snow",
+      "night": "snow"
+    },
+    "75": {
+      "day": "snow",
+      "night": "snow"
+    },
+    "77": {
+      "day": "snow",
+      "night": "snow"
+    },
+    "85": {
+      "day": "snow",
+      "night": "snow"
+    },
+    "86": {
+      "day": "snow",
+      "night": "snow"
+    },
+    "95": {
+      "day": "thunderstorms-rain",
+      "night": "thunderstorms-rain"
+    },
+    "96": {
+      "day": "thunderstorms-rain",
+      "night": "thunderstorms-rain"
+    },
+    "99": {
+      "day": "thunderstorms-rain",
+      "night": "thunderstorms-rain"
+    },
+    "51": {
+      "day": "rain",
+      "night": "rain"
+    },
+    "53": {
+      "day": "rain",
+      "night": "rain"
+    },
+    "55": {
+      "day": "rain",
+      "night": "rain"
+    },
+    "61": {
+      "day": "rain",
+      "night": "rain"
+    },
+    "63": {
+      "day": "rain",
+      "night": "rain"
+    },
+    "65": {
+      "day": "rain",
+      "night": "rain"
+    },
+    "80": {
+      "day": "rain",
+      "night": "rain"
+    },
+    "81": {
+      "day": "rain",
+      "night": "rain"
+    },
+    "82": {
+      "day": "rain",
+      "night": "rain"
+    }
+  }
+}

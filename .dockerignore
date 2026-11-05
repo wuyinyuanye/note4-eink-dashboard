@@ -1,0 +1,10 @@
+.git
+.github
+.venv
+data
+__pycache__
+*.pyc
+*.log
+.DS_Store
+local_app/bridge/target
+fonts/zfull_GB.ttf

@@ -1,0 +1,2 @@
+Pillow==12.3.0
+lunardate==0.3.0

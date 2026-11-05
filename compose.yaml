@@ -1,0 +1,30 @@
+services:
+  note4:
+    image: note4-eink-dashboard:local
+    build:
+      context: .
+      dockerfile: local_app/deploy/nas/Dockerfile
+    network_mode: host
+    restart: unless-stopped
+    init: true
+    user: "${NOTE4_UID:-1000}:${NOTE4_GID:-1000}"
+    stop_grace_period: 20s
+    read_only: true
+    environment:
+      NOTE4_AUTOCONNECT: "${NOTE4_AUTOCONNECT:-0}"
+      NOTE4_PAGE: "${NOTE4_PAGE:-home}"
+      NOTE4_BIND: "0.0.0.0"
+      NOTE4_PORT: "18772"
+    volumes:
+      - ./data:/data
+    tmpfs:
+      - /tmp:rw,size=64m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

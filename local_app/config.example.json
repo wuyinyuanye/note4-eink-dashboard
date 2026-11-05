@@ -1,0 +1,9 @@
+{
+  "city": "上海",
+  "latitude": 31.2304,
+  "longitude": 121.4737,
+  "target": "192.0.2.100",
+  "expected_id": "0123456789ab",
+  "weather_interval_seconds": 3600,
+  "market_image_format": "Gray4"
+}

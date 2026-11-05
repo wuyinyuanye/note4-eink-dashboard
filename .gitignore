@@ -1,0 +1,25 @@
+# Runtime data and credentials
+/data/
+*.log
+*.pid
+.env
+config.json
+.DS_Store
+
+# Downloaded font (fetch with scripts/fetch-font.py)
+/fonts/zfull_GB.ttf
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Rust
+/local_app/bridge/target/
+
+# Node
+node_modules/
+
+# Local agent and handoff data
+/.claude-runs/
+/HANDOFF*.md
